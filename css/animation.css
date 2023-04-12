@@ -16,14 +16,12 @@
     position: absolute;
     left:50%;
     margin-left: -40px;
-    top:-5px;   
-    
-    
+    top:-5px;
 }
 
 .background {
     width: 250px;
-    height: 345px;
+    height: 350px;
     position: relative;
     margin: auto;
 }

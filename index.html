@@ -8,19 +8,20 @@
         <meta name="description" content="Ecole de cours particuliers">
         <meta name="author" content="Scoocoo">
     
-
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/index.css" rel="stylesheet">
         <link href="css/animation.css" rel="stylesheet">
+        <link href="css/fullpage.min.css" rel="stylesheet">
 
         <link type='image/x-icon' href='favicon.ico' />
 
-        <style>
-            
-        </style>
-
     </head>
     <body>
+
+      <div id="fullpage">
+
+        <div class="section">
+
                 <div class="background">
                   <div class="flower roundpetal petal5 flower1">
                     <div class="petal">
@@ -231,21 +232,223 @@
 
 
 
-                <div id="firstpage" class="container">
+                <div id="firstpage" class="container pb-5">
 
                   <h1 id=title>Scoocoo</h1>
                   <h4 class="pt-5">École de cours particuliers et de formation au programme français.</h3>
                   <h5 class="pt-5">Tous les niveaux, Toutes les matières.</h5>
-                  <h5 class="pt-2">Du prescolaire à la Terminale.</h5>
+                  <h5 class="pt-2">Du CP à la Terminale.</h5>
 
                 </div>
 
+          </div>
+
+          <div id=ecole class="section">
+
+            <h4 class=pt-2>L'École</h4>
+
+              <div class="container pt-5">
+                <div id="carouselDark" class="carousel carousel-dark slide" data-bs-interval="false" data-bs-ride="carousel">
+        
+                  <div id="carouselcenter" class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="pictures/ecole/1.jpeg">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="pictures/ecole/2.jpg">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="pictures/ecole/3.jpg">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="pictures/ecole/4.jpg">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="pictures/ecole/5.jpg">
+                    </div>          
+                    <div class="carousel-item">
+                      <img src="pictures/ecole/6.jpg">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="pictures/ecole/7.jpg">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="pictures/ecole/8.jpg">
+                    </div>          
+                    <div class="carousel-item">
+                      <img src="pictures/ecole/9.jpg">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="pictures/ecole/10.jpg">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselDark" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselDark" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+
+
+              <div class="container pt-5 pb-5">
+                Située dans la ville d'Alger à Bouzareah dans le quartier des Deux piliers, l'école Scoocoo délivre des 
+                formations et cours particuliers aux élèves inscrits de la classe de CP à la terminale. Notre enceinte comprend plus de 200 m2 
+                de surface et baigne dans un environnement calme et silencieux garantissant concentration et studiosité.
+                <br>
+                Des aires de jeux et un jardin leur sont également mis a disposition pendant les pauses pour développer en eux 
+                l'amour du travail et s'épanouir socialement.
+              </div>
+
+            </div>
+
+
+          <div id=equipe class="section">
+
+            <h4>L'Équipe</h4>
+
+            <div class="container pt-5 pb-5">
+              Nos professeurs sont pédagogues et forts de plusieurs années d'experience dans l'éducation
+              et l'industrie, permettant ainsi à votre enfant de recevoir non seulement un bon enseignement théorique mais également
+              de jouir de conversations sur les débouchés et applications de leur cursus scolaire dans le monde du travail en Algérie et à l'étranger.            
+            </div>
+
+            <div id="profs" class="pb-5">
+
+              <div class="container pb-3">
+                <img class=profpic src="pictures/profs/hb_bens.jpeg">
+                <div class="container description">
+                  <img src="pictures/profs/hb_bens_name.png"><br>
+                  Diplômée de l'université d'Alger en médecine générale, Habiba a
+                  enseignée le Français, les S.V.T, et l'Histoire-Géographie depuis 2007
+                  dans plusieurs écoles privées.
+                </div>
+              </div>
+
+              <div class="container">
+                <img class=profpic src="pictures/profs/djeb_mkd.png">
+                <div class="container description">
+                  <img src="pictures/profs/djeb_mkd_name.png"><br>
+                  Diplômé de l'université de Toulouse en traitement du signal et de l'image, Djébril
+                  enregistre plus de 4 ans d'experience en entreprise en France et au Canada
+                  dans le domaine de l'intelligence artificielle.
+                </div> 
+              </div>
+
+            </div>
+
+          </div>
+
+          <div id=contact class="section">
+
+            <h4 style='color:green'>Nous contacter</h4>
+
+            <div class="container pt-5">
+
+              <p>
+                <span style="color: gray">Adresse</span> A 300 mètres de la salle des fêtes Catherine,
+                        Quartier des Deux piliers, Bouzareah, Alger
+              </p>
+              <p>
+                <span style="color: gray">Téléphone</span> 0541 30 46 31
+              </p>
+              <p>
+                <span style="color: gray">Email</span> contact@scoocoo.com
+              </p>
+
+            </div>
+
+          </div>
+
+
         </div>
 
+
+
+        <div id="carouselModal" class="modal">
+          <span id="carouselModalClose" class="close">&times;</span>
+          <img class="modal-content" id="carouselModalImg">
+        </div>
+        
         <script src="https://cdnjs.cloudflare.com/ajax/libs/scenejs/1.9.4/scene.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
         <script src="js/jquery-3.6.0.min.js"></script>
         <script src="js/animation.js"></script>
+        <script src="js/fullpage/fullpage.min.js"></script>
+
+
+        <script>
+
+          new fullpage('#fullpage', {
+              sectionsColor: ['#FEFDE3', '#FFAA65', '#4BBFC3', 'FEFDE3'],
+              licenseKey: "gplv3-license",
+              scrollOverflow: true,
+              scrollHorizontally: false
+
+
+          });
+
+
+
+          // carousel picture zoom
+        var modal = document.getElementById("carouselModal");
+        var cimg = document.getElementById("carouselcenter");
+        var modalImg = document.getElementById("carouselModalImg");
+        if($("#carouselcenter").length != 0)
+        {
+            cimg.onclick = function(){
+                modal.style.display = "block";
+                modalImg.src = $('#carouselcenter').find('.active').find('img').attr('src');
+            } 
+
+            modal.onclick = function(e) { 
+                if(e.target != modalImg){
+                    modal.style.display = "none";
+                }
+            }
+        }
+
+        </script>
+
+
+        <!-- Read the Formbutton docs at formspree.io/formbutton/docs. See more examples at codepen.io/formspree -->
+        <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+        <script>
+          /* paste this line in verbatim */
+          window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
+          /* customize formbutton below*/     
+          formbutton("create", {
+            action: "https://formspree.io/f/mknyzngp",
+            title: "Comment vous aider ?",
+            fields: [
+              { 
+                type: "email", 
+                label: "Email:", 
+                name: "email",
+                required: true,
+                placeholder: "votre@email.com"
+              },
+              {
+                type: "textarea",
+                label: "Message:",
+                name: "message",
+                placeholder: "Votre message...",
+              },
+              { type: "submit" }      
+            ],
+            styles: {
+              title: {
+                backgroundColor: "black"
+              },
+              button: {
+                backgroundColor: "black"
+              }
+            }
+          });
+        </script>
 
 
     </body>

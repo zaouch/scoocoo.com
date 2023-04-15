@@ -130,8 +130,8 @@ body {
   #carouselModalImg {
     margin: auto;
     display: block;
-    height: auto;
-    max-width:80vw;
+    max-height: 80vh;
+    width:auto;
     border-radius: 21px;
   }
   #carouselModalClose {
